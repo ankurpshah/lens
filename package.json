@@ -129,7 +129,7 @@
     "mac-ca": "^1.0.4",
     "md5-file": "^4.0.0",
     "node-machine-id": "^1.1.12",
-    "node-pty": "^0.9.0",
+    "node-pty": "^0.10.1",
     "on-change": "^1.6.2",
     "proper-lockfile": "^4.1.1",
     "request": "^2.88.0",
