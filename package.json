@@ -148,7 +148,7 @@
     "vuex": "^3.1.1",
     "win-ca": "^3.1.1",
     "winston": "^3.2.1",
-    "ws": "^7.1.2"
+    "ws": "^7.4.5"
   },
   "devDependencies": {
     "@types/ejs": "^2.6.3",
