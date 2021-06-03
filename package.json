@@ -119,7 +119,7 @@
     "cookie": "^0.4.0",
     "electron-promise-ipc": "^1.3.0",
     "electron-store": "^5.0.0",
-    "electron-updater": "^4.1.2",
+    "electron-updater": "^4.3.8",
     "electron-window-state": "^5.0.3",
     "filenamify": "^4.1.0",
     "handlebars": "4.1.2",
