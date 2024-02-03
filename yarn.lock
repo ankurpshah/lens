@@ -7152,6 +7152,11 @@ lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.1
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lodash@^4.17.19:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 logform@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/logform/-/logform-2.1.2.tgz#957155ebeb67a13164069825ce67ddb5bb2dd360"
@@ -9518,7 +9523,14 @@ request-promise-core@1.1.2:
   dependencies:
     lodash "^4.17.11"
 
-"request-promise-native@^ 1.0.7", request-promise-native@^1.0.5:
+request-promise-core@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.4.tgz#3eedd4223208d419867b78ce815167d10593a22f"
+  integrity sha512-TTbAfBBRdWD7aNNOoVOBH4pN/KigV6LyapYNNlAPA8JwbovRti1E88m3sYAwsLi5ryhPKsE9APwnjFTgdUjTpw==
+  dependencies:
+    lodash "^4.17.19"
+
+request-promise-native@^1.0.5:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.7.tgz#a49868a624bdea5069f1251d0a836e0d89aa2c59"
   integrity sha512-rIMnbBdgNViL37nZ1b3L/VfPOpSi0TqVDQPAvO6U14lMzOLrt5nilxCQqtDKhZeDiW0/hkCXGoQjhgJd/tCh6w==
@@ -9527,7 +9539,16 @@ request-promise-core@1.1.2:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.45.0:
+request-promise-native@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.9.tgz#e407120526a5efdc9a39b28a5679bf47b9d9dc28"
+  integrity sha512-wcW+sIUiWnKgNY0dqCpOZkUbF/I+YPi+f09JZIDa39Ec+q82CpSYniDp+ISgTTbKmnpJWASeJBPZmoxH84wt3g==
+  dependencies:
+    request-promise-core "1.1.4"
+    stealthy-require "^1.1.1"
+    tough-cookie "^2.3.3"
+
+request@^2.45.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
