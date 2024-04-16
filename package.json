@@ -133,7 +133,7 @@
     "on-change": "^1.6.2",
     "proper-lockfile": "^4.1.1",
     "request": "^2.88.0",
-    "request-promise-native": "^ 1.0.7",
+    "request-promise-native": "^1.0.9",
     "semver": "^6.3.0",
     "shell-env": "^3.0.0",
     "shelljs": "^0.8.3",
