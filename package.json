@@ -110,7 +110,7 @@
   "dependencies": {
     "@hapi/call": "^6.0.1",
     "@hapi/subtext": "^6.1.2",
-    "@kubernetes/client-node": "0.11.0",
+    "@kubernetes/client-node": "0.12.2",
     "@types/cookie": "^0.3.3",
     "@types/fs-extra": "^8.0.0",
     "@types/proper-lockfile": "^4.1.1",
@@ -126,7 +126,7 @@
     "http-proxy": "^1.17.0",
     "https-proxy-agent": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
-    "mac-ca": "^1.0.4",
+    "mac-ca": "^1.1.0",
     "md5-file": "^4.0.0",
     "node-machine-id": "^1.1.12",
     "node-pty": "^0.9.0",
@@ -146,7 +146,7 @@
     "uuid": "^3.3.3",
     "v-clipboard": "^2.2.2",
     "vuex": "^3.1.1",
-    "win-ca": "^3.1.1",
+    "win-ca": "^3.5.0",
     "winston": "^3.2.1",
     "ws": "^7.1.2"
   },
