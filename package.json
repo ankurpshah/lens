@@ -110,7 +110,7 @@
   "dependencies": {
     "@hapi/call": "^6.0.1",
     "@hapi/subtext": "^6.1.2",
-    "@kubernetes/client-node": "0.11.0",
+    "@kubernetes/client-node": "1.0.0",
     "@types/cookie": "^0.3.3",
     "@types/fs-extra": "^8.0.0",
     "@types/proper-lockfile": "^4.1.1",
@@ -142,7 +142,7 @@
     "tar": "^5.0.5",
     "tcp-port-used": "^1.0.1",
     "tempy": "0.3.0",
-    "universal-analytics": "^0.4.20",
+    "universal-analytics": "^0.4.21",
     "uuid": "^3.3.3",
     "v-clipboard": "^2.2.2",
     "vuex": "^3.1.1",
